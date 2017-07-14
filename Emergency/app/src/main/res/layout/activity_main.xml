@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+
+        android:textStyle="normal|bold|italic"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView1"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Message"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button1"
+        android:onClick="sendMessage"
+        android:background="@drawable/button_border"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:padding='15dp'
+        android:backgroundTint="#2ffffcf6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Emergency Call"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button2"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:onClick="call"
+        android:padding='10dp'
+        android:background="@drawable/button_border"
+        android:backgroundTint="#3efffcf6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Nearest Police Station"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button3"
+        android:onClick="nearestPoliceStation"
+        android:background="@drawable/button_border"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:padding='15dp'
+        android:backgroundTint="#49fffcf6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Store Contacts"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:onClick="storeContact"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:padding='15dp'
+        android:background="@drawable/button_border"
+        android:backgroundTint="#4dfffcf6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Crime Rates"
+        android:id="@+id/button5"
+        android:onClick="crime_rate"
+        android:layout_below="@+id/button4"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:padding='15dp'
+        android:backgroundTint="#55fffcf6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Guide"
+        android:id="@+id/button6"
+        android:onClick="userguide"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:textColor="#f8f4ff"
+        android:textColorHighlight="#ffffff"
+        android:shadowColor="#f8f4ff"
+        android:padding='15dp'
+        android:backgroundTint="#4bfffcf6" />
+
+</RelativeLayout>
