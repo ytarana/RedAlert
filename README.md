@@ -6,11 +6,11 @@ Helps to get accident prone regions.
 Does everything with touch of a screen or click of a button.
 
 Features:
-Can directly call your emergency contact.
+Directly call your emergency contact.
 You can message your current location to emergency contact.
 Get the nearest police station using Google Maps.
 Can get the crime rate of a particular area.
-Add or delete emergency contacts.
+Ad:xd or delete emergency contacts.
 Hardware buttons to call.
 User Guide for a brief description. 
 
